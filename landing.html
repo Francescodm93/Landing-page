@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../Font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="landing.js">
+</head>
+<body>
+<div id="page-wrapper">
+    <header id="header">
+        <div class="logo">
+        </div>
+        <nav id="nav-bar">
+        <ul>
+        <li class="id"><a class="nav-link" href="#features">Features</a></li>
+        <li class="id"><a class="nav-link" href="#introduction">Introduction</a></li>
+        <li class="id"><a class="nav-link" href="#price">Price</a></li>
+        </ul>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+<section id="hero">
+    <h2>Racing bikes, mountain bikes, 
+        road bikes and much more only from us</h2>
+        <form id="form" action="">
+            <input 
+            name="email"
+            type="email"
+            id="email"
+            placeholder="enter your email..."
+            required>
+            <input id="submit" type="submit" value="sign in" class="btn">
+        </form>
+</section>
+<div class="container">
+    <section id="features">
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-bicycle"></i></div>
+            <div class="desc">
+                <h2>Top Quality</h2>
+                <p>
+                    Our bicycles use the highest quality materials such
+                    as steel, carbon fiber and titanium alloy. 
+                    This will increase the longevity of your bike
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-home"></i></div>
+            <div class="desc">
+              <h2>Free Delivery</h2>
+              <p>
+                Too busy to pick up the bike? Don't worry, buy any bike
+                and we'll deliver it to your home without delivery costs
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-shield-alt"></i></div>
+            <div class="desc">
+              <h2>Secure Warranty</h2>
+              <p>
+                Buy any new or used bike you will still have an
+                 insurance cover for 12 months. Guaranteed
+              </p>
+            </div>
+          </div>
+    </section>
+    <section id="introduction">
+        <iframe 
+        id="video"
+        width="500" height="300" 
+        src="https://www.youtube.com/embed/Znt0UuZW2nU" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    </section>
+    <h1 id="h1">Buy now online and receive 20% discount          
+      <i id="icon-fire" class="fa fa-1x fa-fire"></i>
+</h1> 
+    <section id="price">
+    <div class="product" id="mountain-bike">
+        <div class="level"><strong>Mountain Bike</strong></div>
+      <h3><s>$499</s> $399</h3>
+      <ol>
+        <li>Material: steel</li>
+        <li>Foldable design: foldable size: (95 * 35 *100)</li>
+        <li>Shimano 8 speed gearbox</li>
+      </ol>
+      <img id="small-image" src="immagini/mb.jpg" alt="bike">
+      <button class="btn">Buy now</button>
+    </div>
+    <div class="product" id="trekking-bike">
+        <div class="level"><strong>Trekking Bike</strong></div>
+         <h3><s>$1299</s> $1039</h3>
+       <ol>
+       <li>Material: Carbon Fiber</li>
+       <li>The bike has been designed to be agile and responsiver</li>
+       <li>The bike is equipped with rechargeable front and rear lights</li>
+       </ol>
+       <img id="small-image" src="immagini/tb.jpg" alt="bike">
+       <button class="btn"> Buy now</button>
+       </div>
+       <div class="product" id="racing-bike">
+        <div class="level"><strong>Racing Bike</strong></div>
+          <h3><s>$3299</s> $2639</h3>
+          <ol>
+          <li>Material: Titanium Alloy</li>
+        <li>Weight: 9kg</li>
+        <li>GIANT SLR 1 Disc Carbon, tubeless ready, 42/65 mm</li>
+        </ol>
+        <img id="small-image" src="immagini/rb.jpg" alt="bike">
+        <button class="btn">Buy now</button>
+        </div>
+    </section>
+    <footer>
+        <ul>
+           <li class="id"><a id="end" href="#">Privacy</a></li> 
+           <li class="id"><a id="end" href="#">Terms</a></li> 
+           <li class="id"><a id="end" href="#">Contact</a></li> 
+        </ul>
+        <span>Copyright &copy; 2021 Bicycles planet</span>
+    </footer>
+</div>
+</div>
+</body>
+</html>
